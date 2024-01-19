@@ -1,9 +1,6 @@
-import time
-
 from brain import srapWeb
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import relationship
 from datetime import datetime
 
 app = Flask(__name__)
@@ -69,3 +66,4 @@ elif scrapWeb.x == "EKSTRAKLASA":
         db.session.add(new_record)
         db.session.commit()
 scrapWeb.driver.quit()
+scrapWeb.printClubs()

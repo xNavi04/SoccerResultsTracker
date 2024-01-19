@@ -54,4 +54,27 @@ class srapWeb:
             time.sleep(3)
             self.groupEKSTRAKLASA()
 
+    def printClubs(self):
+        if self.x == "UEFA":
+            print("-----1-----")
+            print(self.CLUBS[0])
+            print("-----2-----")
+            print(self.CLUBS[1])
+            print("-----3-----")
+            print(self.CLUBS[2])
+            print("-----4-----")
+            print(self.CLUBS[3])
+        elif self.x == "EKSTRAKLASA":
+            print("-----1-----")
+            print(self.CLUBS[0])
+            print("-----2-----")
+            print(self.CLUBS[1])
+            print("-----3-----")
+            print(self.CLUBS[2])
+            print("-----4-----")
+            print(self.CLUBS[3])
+            print("-----5-----")
+            print(self.CLUBS[4])
+
+
 
